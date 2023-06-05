@@ -2,6 +2,7 @@ import React from "react";
 import { Route, Routes } from "react-router-dom";
 import "./App.css";
 import Dash from "./components/Dash";
+import Dynamic from "./components/Dynamic";
 import Fixtrading from "./components/Fixtrading";
 import Login from "./components/Login";
 import Navbar from "./components/Navbar";
@@ -22,6 +23,7 @@ function App() {
         <Route path="/signup" element={<SignUp />} />
         <Route path="/pereferential" element={<Preferential />} />
         <Route path="/fixtrading" element={<Fixtrading />} />
+        <Route path="/dynamic" element={<Dynamic />} />
       </Routes>
     </div>
   );
